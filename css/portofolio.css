@@ -1,0 +1,35 @@
+.portofolio {
+    width: 100%;
+    height: max-content;
+    text-align: center;
+    background-size: cover;
+}
+
+.portofolio img {
+    width: 200px;
+    margin-top: 50px;
+    border-radius: 50%;
+}
+
+.portofolio h1 {
+    color: white;
+    line-height: 30px;
+    padding-bottom: 7px;
+}
+
+.portofolio hr {
+    color: white;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    background-color: white;
+    border: 0;
+    border-radius: 2px;
+}
+
+.portofolio h2 {
+    color: white;
+    line-height: 30px;
+    padding-bottom: 50px;
+}

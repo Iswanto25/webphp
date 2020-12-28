@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.footer {
+    display: grid;
+    width: 100%;
+    height: max-content;
+    background-size: cover;
+    /* filter: opacity(0.7); */
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    /* background: black; */
+    grid-gap: 20px;
+}
+
+.footer-logo img {
+    padding-left: 20px;
+    width: 300px;
+    padding-right: 10px;
+}
+
+
+/* /* form  */
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    /* background-color: #4caf50; */
+    height: 280px;
+    padding: 0 20px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #cacaca;
+    border-radius: 4px;
+    resize: vertical;
+    /* height: 10px; */
+    background-color: rgb(255, 255, 255, 0.4);
+}
+
+textarea {
+    height: 100px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #6de771;
+}
+
+.form {
+    width: 100%;
+    border-radius: 5px;
+    padding-top: 10px;
+    height: 300px;
+    /* padding-bottom: 20px; */
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.row-form::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input [type=submit]:active {
+    border: none;
+}
+
+
+/* social */
+
+.social {
+    /* background-color: #6de771; */
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.social h1 {
+    font-size: 15px;
+    opacity: 0.6;
+    float: right;
+    /* /* padding-right: 10px; */
+    padding-top: 10px;
+    padding-left: 100px;
+}
+
+.social ul {
+    display: flex;
+    list-style: none;
+    /* justify-content: center; */
+    padding-top: 60px;
+    float: right;
+}
+
+.social ul li {
+    padding: 0 15px;
+}
+
+.social ul li a img {
+    width: 35px;
+    opacity: 0.5;
+}
+
+.social ul li a img:hover {
+    opacity: 1;
+}
+
+.social h2 {
+    text-align: center;
+    line-height: 40px;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px;
+    text-align: left;
+}
+.error{
+    color: rgb(199, 10, 10);
+    font-weight: bold;
+}
